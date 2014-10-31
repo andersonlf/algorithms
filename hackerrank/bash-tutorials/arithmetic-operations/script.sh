@@ -2,8 +2,8 @@
 
 read expression
 
-#echo "scale=3; $expression" | bc -l
+result=`echo "$expression" | bc -l`
 
-echo `expr $expression`
+echo $result | awk '{printf("%.3f",$1)}'
 
 exit $?
