@@ -1,8 +1,7 @@
 algorithms
 ==========
 
-[![Build Status](https://travis-ci.org/andersonlf/hackerrank-quickstart-archetype.svg?branch=master)](https://travis-ci.org/andersonlf/hackerrank-quickstart-archetype)
-
+[![Build Status](https://travis-ci.org/andersonlf/algorithms.svg?branch=master)](https://travis-ci.org/andersonlf/algorithms)
 
 Summary
 -------
