@@ -17,6 +17,7 @@
   <modules>
     <module>hackerrank/algorithms/warmup/solve-me-first</module>
     <module>hackerrank/algorithms/warmup/service-lane</module>
+    <module>hackerrank/algorithms/warmup/utopian-tree</module>
   </modules>
   
 </project>
