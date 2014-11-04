@@ -55,6 +55,7 @@ Em resposta ao email-post do problema informe apenas o link para o código de so
 
 
 **Organização do repositório de soluções**
+
 Embora cada participante da lista tenha completa autonomia para organizar o repositório com as soluções para os problemas, sugerimos a seguinte organização:
 
 repositorio
