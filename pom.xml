@@ -21,6 +21,7 @@
     <module>hackerrank/algorithms/warmup/maximizing-xor</module>
     <module>hackerrank/algorithms/warmup/the-love-letter-mystery</module>
     <module>hackerrank/algorithms/warmup/halloween-party</module>
+    <module>hackerrank/algorithms/warmup/cut-the-sticks</module>
   </modules>
   
 </project>
