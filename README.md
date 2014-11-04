@@ -18,7 +18,7 @@ Os problemas postados nessa lista de discussão são publicados originalmente em
 *   https://www.hackerrank.com
 *   http://uva.onlinejudge.org
 *   https://www.codeeval.com
-*   http://exercism.io/
+*   http://exercism.io
 
 No primeiro momento resolveremos apenas problemas hospedados no site [HackerRank](https://www.hackerrank.com), no domínio [Algorithms](https://www.hackerrank.com/domains/algorithms) e subdomínio [Warmup](https://www.hackerrank.com/domains/algorithms/warmup). Logo após a resolução de todos os problemas desse subdomínio os _partipantes ativos_ da lista de discussão votarão a escolha do próximo subdomínio.
 
@@ -58,6 +58,7 @@ Em resposta ao email-post do problema informe apenas o link para o código de so
 
 Embora cada participante da lista tenha completa autonomia para organizar o repositório com as soluções para os problemas, sugerimos a seguinte organização:
 
+<pre>
 repositorio
 ├── hackerrank
 │   ├── algorithms
@@ -75,5 +76,11 @@ repositorio
 │   │       │               └── test1
 │   │       │                   ├── in.dat
 │   │       │                   └── out.dat
+</pre>
 
 Para facilitar a criação da estrutura de resposta dos problemas o Archetype Maven [hackerrank-quickstart-archetype](https://github.com/andersonlf/hackerrank-quickstart-archetype) foi criado. Para mais informações acesse o [README](https://github.com/andersonlf/hackerrank-quickstart-archetype/blob/master/README.md)
+
+
+**Regras**
+
+1.  Participante Ativo é todo aquele que realiza pelo menos 75% dos problemas propostos a cada mês.
