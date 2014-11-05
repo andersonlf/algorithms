@@ -22,6 +22,7 @@
     <module>hackerrank/algorithms/warmup/the-love-letter-mystery</module>
     <module>hackerrank/algorithms/warmup/halloween-party</module>
     <module>hackerrank/algorithms/warmup/cut-the-sticks</module>
+    <module>hackerrank/algorithms/warmup/game-of-thrones</module>
   </modules>
   
 </project>
