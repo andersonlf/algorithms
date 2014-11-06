@@ -10,10 +10,9 @@ public class Solution {
 
 	public static void solve(Scanner in) {
 		int t = in.nextInt();
-		int count = 0;
-		while (count < t) {
+		
+		for (int count = 0; count < t; count++) {
 			System.out.println(Solution.calculate(in.nextInt()));
-			count++;
 		}
 	}
 

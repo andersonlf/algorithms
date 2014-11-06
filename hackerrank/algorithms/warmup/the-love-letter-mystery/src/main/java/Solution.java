@@ -12,25 +12,20 @@ public class Solution {
 
 	public static void solve(Scanner in) {
 		int t = in.nextInt();
-		int count = 0;
-
-		while (count < t) {
+		
+		for (int count = 0; count < t; count++) {
 			String word = in.next();
 			System.out.println(Solution.getNumOperations(word));
-			count++;
 		}
 	}
 
 	private static int getNumOperations(String word) {
 		int numOperations = 0;
 		char[] cword = word.toCharArray();
-
 		for (int i = 0; i < cword.length / 2; i++) {
 			int n = calculate(cword[i], cword[cword.length - i - 1]);
-
 			numOperations += n;
 		}
-
 		return numOperations;
 	}
 
