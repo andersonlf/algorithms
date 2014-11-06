@@ -23,6 +23,7 @@
     <module>hackerrank/algorithms/warmup/halloween-party</module>
     <module>hackerrank/algorithms/warmup/cut-the-sticks</module>
     <module>hackerrank/algorithms/warmup/game-of-thrones</module>
+    <module>hackerrank/algorithms/warmup/gem-stones</module>
   </modules>
   
 </project>
