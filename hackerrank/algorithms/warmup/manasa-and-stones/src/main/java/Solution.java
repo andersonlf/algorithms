@@ -24,39 +24,18 @@ public class Solution {
 	}
 
 	private static void calculateLastStone(int n, int a, int b) {
-		Set<Integer> possibleLastStones = new TreeSet<Integer>();
+		Set<Integer> lastStones = new TreeSet<Integer>();
 		
-		possibleLastStones.add(getPossible1(n, a));
-		possibleLastStones.add(getPossible1(n, a, b));
-		// testar casos médios:
-		// - sempre a ate ultima pedra com b
-		// - sempre a ate penultima pedra com b
-		// ...
-		possibleLastStones.add(getPossible1(n, b, a));
-		possibleLastStones.add(getPossible1(n, b));
+		int pos = n - 1;
 		
-		for (Integer s : possibleLastStones) {
+		for (int i = pos, j = 0; i >= 0; i--, j++) {
+			lastStones.add(i*a + j*b);
+		}
+		
+		for (Integer s : lastStones) {
 			System.out.print(s + " ");
 		}
 	}
 
-	private static Integer getPossible1(int n, int a, int b) {
-		int count = 0;
-		for (int i = 1; i < n; i++) {
-			if (i % 2 == 0) {
-				count = count + a;
-			} else {
-				count = count + b;
-			}
-		}
-		return count;
-	}
 
-	private static Integer getPossible1(int n, int a) {
-		int count = 0;
-		for (int i = 1; i < n; i++) {
-			count = count + a;
-		}
-		return count;
-	}
 }
