@@ -27,6 +27,7 @@
     <module>hackerrank/algorithms/warmup/chocolate-feast</module>
     <module>hackerrank/algorithms/warmup/manasa-and-stones</module>
     <module>hackerrank/algorithms/warmup/sherlock-and-gcd</module>
+    <module>hackerrank/algorithms/warmup/alternating-characters</module>
   </modules>
   
 </project>
