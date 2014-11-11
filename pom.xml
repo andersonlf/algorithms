@@ -28,6 +28,7 @@
     <module>hackerrank/algorithms/warmup/manasa-and-stones</module>
     <module>hackerrank/algorithms/warmup/sherlock-and-gcd</module>
     <module>hackerrank/algorithms/warmup/alternating-characters</module>
+    <module>hackerrank/algorithms/warmup/sherlock-and-squares</module>
   </modules>
   
 </project>
