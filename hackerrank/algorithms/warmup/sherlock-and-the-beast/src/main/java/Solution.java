@@ -25,12 +25,18 @@ public class Solution {
 			for (int i = 0; i < n; i++) {
 				decentNumber += "5";
 			}
+			for (int i = 0; i < z; i++) {
+				decentNumber += "3";
+			}
 			return decentNumber;
 		} 
 
 		if (n % 5 == 0 && z % 3 == 0) {
 			for (int i = 0; i < n; i++) {
 				decentNumber += "3";
+			}
+			for (int i = 0; i < z; i++) {
+				decentNumber += "5";
 			}
 			return decentNumber;
 		} 
@@ -40,6 +46,6 @@ public class Solution {
 			return decentNumber;
 		}
 		
-		return calculateDecentNumber(n-1, n - (n-1));
+		return calculateDecentNumber(n-1, z + 1);
 	}
 }
