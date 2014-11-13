@@ -29,6 +29,7 @@
     <module>hackerrank/algorithms/warmup/sherlock-and-gcd</module>
     <module>hackerrank/algorithms/warmup/alternating-characters</module>
     <module>hackerrank/algorithms/warmup/sherlock-and-squares</module>
+    <module>hackerrank/algorithms/warmup/sherlock-and-the-beast</module>
   </modules>
   
 </project>
