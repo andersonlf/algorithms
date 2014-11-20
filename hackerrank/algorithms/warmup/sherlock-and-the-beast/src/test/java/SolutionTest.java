@@ -42,6 +42,14 @@ public class SolutionTest {
 		Assert.assertEquals(expectedOutput, out.toString());
 	}
 
+	@Test
+	public void test3() throws Exception {
+		Scanner in = new Scanner(new File("src/test/resources/test3/in.dat"));
+		String expectedOutput = getExpectedOutput("src/test/resources/test3/out.dat");
+		Solution.solve(in);
+		Assert.assertEquals(expectedOutput, out.toString());
+	}
+
 	private String getExpectedOutput(String string) throws IOException {
 		return new String(Files.readAllBytes(Paths.get(string))) + "\n";
 	}

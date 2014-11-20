@@ -19,26 +19,18 @@ public class Solution {
 	}
 
 	private static void calculateDecentNumber(int n) {
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sb = new StringBuilder("-1");
 		
-		if (n < 3) {
-			sb.append("-1");
-//		} else if (n == 3 || n % 3 == 0) {
-//			write5(n, sb);
-//		} else if (n == 5 || n % 5 == 0) {
-//			write3(n, sb);
-		} else {
-			for (int i = 0; i < n; i++) {
-				
-				// qnt 5  
+		if (n >= 3) {
+			for (int i = 0; i <= n; i++) {
 				int n5 = n - i;
 				int n3 = i;
-				
-				if ((n3 % 5 == 0 && n5 % 3 == 0) || n3 % 5 == 0 || n5 % 3 == 0) {
+				if (n3 % 5 == 0 && n5 % 3 == 0) {
+					sb = new StringBuilder();
 					write5(n5, sb);
 					write3(n3, sb);
+					break;
 				}
-				
 			}
 		}
 		
