@@ -32,6 +32,9 @@
     <module>hackerrank/algorithms/warmup/sherlock-and-the-beast</module>
     <module>hackerrank/algorithms/warmup/acm-icpc-team</module>
     <module>hackerrank/algorithms/warmup/filling-jars</module>
+    <!-- 
+    <module>hackerrank/algorithms/warmup/angry-children</module>
+     -->
   </modules>
   
 </project>
