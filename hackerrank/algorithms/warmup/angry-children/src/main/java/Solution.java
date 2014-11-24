@@ -28,12 +28,9 @@ public class Solution {
 	private static void process(List<Long> packets, long n, long k) {
 		List<Long> unfairness = new ArrayList<Long>();
 		Collections.sort(packets);
-		for (int i = 0; i < k; i++) {
-			for (int j = 0; j <)
-			
+		for (int i = 0; i <= k; i++) {
 			long min = packets.get(i);
-			long max = packets.get(j);
-			
+			long max = packets.get(i+(int)k-1);
 			unfairness.add(max - min);
 		}
 		Collections.sort(unfairness);
