@@ -15,22 +15,22 @@ public class Solution {
 		long n = in.nextLong();
 		long k = in.nextLong();
 
-		List<Long> packets = new ArrayList<Long>((int)n);
+		List<Long> packets = new ArrayList<Long>((int) n);
 		for (int i = 0; i < n; i++) {
 			long j = in.nextLong();
-			
+
 			packets.add(j);
 		}
-		
+
 		process(packets, n, k);
 	}
 
 	private static void process(List<Long> packets, long n, long k) {
 		List<Long> unfairness = new ArrayList<Long>();
 		Collections.sort(packets);
-		for (int i = 0; i <= k; i++) {
+		for (int i = 0; i < n - k; i++) {
 			long min = packets.get(i);
-			long max = packets.get(i+(int)k-1);
+			long max = packets.get(i + (int) k - 1);
 			unfairness.add(max - min);
 		}
 		Collections.sort(unfairness);
