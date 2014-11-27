@@ -34,9 +34,7 @@
     <module>hackerrank/algorithms/warmup/filling-jars</module>
     <module>hackerrank/algorithms/warmup/angry-children</module>
     <module>hackerrank/algorithms/warmup/is-fibo</module>
-    <!-- 
     <module>hackerrank/algorithms/warmup/find-digits</module>
-     -->
   </modules>
   
 </project>

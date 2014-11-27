@@ -18,6 +18,19 @@ public class Solution {
 	}
 
 	private static void process(long n) {
-		System.out.println(n);
+		int answer = 0;
+		String nString = Long.toString(n);
+		char[] digits = nString.toCharArray();
+		for (char c : digits) {
+			int digit = Integer.valueOf(Character.toString(c));
+			
+			if (digit == 0) {
+				continue;
+			} else if (n % digit == 0) {
+				answer++;
+			}
+		}
+		
+		System.out.println(answer);
 	}
 }
