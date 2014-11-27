@@ -9,6 +9,15 @@ public class Solution {
 	}
 
 	public static void solve(Scanner in) {
-		// your code must be here
+		int t = in.nextInt();
+		
+		for (int i = 0; i < t; i++) {
+			long n = in.nextLong();
+			process(n);
+		}
+	}
+
+	private static void process(long n) {
+		System.out.println(n);
 	}
 }
