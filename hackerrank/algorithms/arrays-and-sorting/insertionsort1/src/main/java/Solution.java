@@ -25,6 +25,7 @@ public class Solution {
 			if (lastElement < array[j]) {
 				array[j + 1] = array[j];
 				print(array);
+				array[j] = lastElement;
 			} else {
 				array[j + 1] = lastElement;
 				break;

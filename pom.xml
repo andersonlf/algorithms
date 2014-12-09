@@ -37,9 +37,7 @@
     <module>hackerrank/algorithms/warmup/find-digits</module>
 
     <module>hackerrank/algorithms/arrays-and-sorting/tutorial-intro</module>
-    <!-- 
     <module>hackerrank/algorithms/arrays-and-sorting/insertionsort1</module>
-     -->
   </modules>
   
 </project>
