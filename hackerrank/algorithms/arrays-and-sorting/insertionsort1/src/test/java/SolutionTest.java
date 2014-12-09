@@ -33,7 +33,7 @@ public class SolutionTest {
 		Solution.solve(in);
 		Assert.assertEquals(expectedOutput, out.toString());
 	}
-	
+
 	@Test
 	public void test2() throws Exception {
 		Scanner in = new Scanner(new File("src/test/resources/test2/in.dat"));
@@ -46,6 +46,14 @@ public class SolutionTest {
 	public void test3() throws Exception {
 		Scanner in = new Scanner(new File("src/test/resources/test3/in.dat"));
 		String expectedOutput = getExpectedOutput("src/test/resources/test3/out.dat");
+		Solution.solve(in);
+		Assert.assertEquals(expectedOutput, out.toString());
+	}
+
+	@Test
+	public void test0() throws Exception {
+		Scanner in = new Scanner(new File("src/test/resources/test4/in.dat"));
+		String expectedOutput = getExpectedOutput("src/test/resources/test4/out.dat");
 		Solution.solve(in);
 		Assert.assertEquals(expectedOutput, out.toString());
 	}

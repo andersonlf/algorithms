@@ -20,13 +20,13 @@ public class Solution {
 	}
 
 	private static void sort(int[] array) {
-		int aux = array[array.length - 1];
+		int lastElement = array[array.length - 1];
 		for (int j = array.length - 2; j > -1; j--) {
-			if (aux < array[j]) {
+			if (lastElement < array[j]) {
 				array[j + 1] = array[j];
 				print(array);
 			} else {
-				array[j + 1] = aux;
+				array[j + 1] = lastElement;
 				break;
 			}
 		}
