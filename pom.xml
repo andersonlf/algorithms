@@ -38,9 +38,9 @@
 
     <module>hackerrank/algorithms/arrays-and-sorting/tutorial-intro</module>
     <module>hackerrank/algorithms/arrays-and-sorting/insertionsort1</module>
-    <module>hackerrank/algorithms/arrays-and-sorting/insertionsort2</module>
      
     <!-- 
+    <module>hackerrank/algorithms/arrays-and-sorting/insertionsort2</module>
     <module>hackerrank/algorithms/arrays-and-sorting/correctness-invariant</module>
     <module>hackerrank/algorithms/arrays-and-sorting/runningtime</module>
     <module>hackerrank/algorithms/arrays-and-sorting/quicksort1</module>
