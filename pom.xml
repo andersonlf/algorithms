@@ -15,6 +15,7 @@
   </scm>
 
   <modules>
+    <!-- warmup -->
     <module>hackerrank/algorithms/warmup/solve-me-first</module>
     <module>hackerrank/algorithms/warmup/service-lane</module>
     <module>hackerrank/algorithms/warmup/utopian-tree</module>
@@ -35,13 +36,13 @@
     <module>hackerrank/algorithms/warmup/angry-children</module>
     <module>hackerrank/algorithms/warmup/is-fibo</module>
     <module>hackerrank/algorithms/warmup/find-digits</module>
-
+    <!-- arrays-and-sorting -->
     <module>hackerrank/algorithms/arrays-and-sorting/tutorial-intro</module>
     <module>hackerrank/algorithms/arrays-and-sorting/insertionsort1</module>
-     
+
+    <module>hackerrank/algorithms/arrays-and-sorting/correctness-invariant</module>
     <!-- 
     <module>hackerrank/algorithms/arrays-and-sorting/insertionsort2</module>
-    <module>hackerrank/algorithms/arrays-and-sorting/correctness-invariant</module>
     <module>hackerrank/algorithms/arrays-and-sorting/runningtime</module>
     <module>hackerrank/algorithms/arrays-and-sorting/quicksort1</module>
     <module>hackerrank/algorithms/arrays-and-sorting/quicksort2</module>
