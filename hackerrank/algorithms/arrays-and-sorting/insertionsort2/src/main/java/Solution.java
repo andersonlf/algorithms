@@ -20,16 +20,18 @@ public class Solution {
 	}
 
 	private static void process(int[] ar) {
-		for (int i = 0; i < ar.length; i++) {
-			int a = ar[i];
-			for (int j = i + 1; j < ar.length; j++) {
-				int b = ar[j];
-				if (a > b) {
-					ar[j] = a;
-					ar[i] = b;
-					break;
+		if (ar.length > 1) {
+			for (int i = 1; i < ar.length; i++) {
+				for (int j = 0; j < i; j++) {
+					if (ar[j] > ar[i]) {
+						int aux = ar[j];
+						ar[j] = ar[i];
+						ar[i] = aux;
+					}
 				}
+				print(ar);
 			}
+		} else {
 			print(ar);
 		}
 	}

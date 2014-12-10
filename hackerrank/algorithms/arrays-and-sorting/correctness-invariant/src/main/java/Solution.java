@@ -30,10 +30,13 @@ public class Solution {
 
 		printArray(A);
 	}
-
-	private static void printArray(int[] ar) {
-		for (int n : ar) {
-			System.out.print(n + " ");
+	
+	private static void printArray(int[] array) {
+		StringBuilder sb = new StringBuilder();
+		for (int i : array) {
+			sb.append(i);
+			sb.append(" ");
 		}
+		System.out.println(sb.toString());
 	}
 }
