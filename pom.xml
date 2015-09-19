@@ -13,7 +13,7 @@
     <developerConnection>scm:git:https://github.com/andersonlf/algorithms.git</developerConnection>
     <url>https://github.com/andersonlf/algorithms.git</url>
   </scm>
-
+  
   <modules>
     <!-- warmup -->
     <module>hackerrank/algorithms/warmup/solve-me-first</module>
@@ -49,6 +49,8 @@
     <module>hackerrank/algorithms/arrays-and-sorting/quicksort4</module>
     <module>hackerrank/algorithms/arrays-and-sorting/countingsort1</module>
      -->
+     <!-- java -->
+     <module>hackerrank/java/data-structures/java-1d-array-easy</module>
   </modules>
   
 </project>
