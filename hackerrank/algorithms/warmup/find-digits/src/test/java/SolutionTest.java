@@ -35,6 +35,6 @@ public class SolutionTest {
 	}
 
 	private String getExpectedOutput(String string) throws IOException {
-		return new String(Files.readAllBytes(Paths.get(string))) + "\n";
+		return new String(Files.readAllBytes(Paths.get(string))) + System.getProperty("line.separator");
 	}
 }
