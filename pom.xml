@@ -36,6 +36,7 @@
     <module>hackerrank/algorithms/warmup/angry-children</module>
     <module>hackerrank/algorithms/warmup/is-fibo</module>
     <module>hackerrank/algorithms/warmup/find-digits</module>
+    <module>hackerrank/algorithms/warmup/diagonal-difference</module>
     <!-- arrays-and-sorting -->
     <module>hackerrank/algorithms/arrays-and-sorting/tutorial-intro</module>
     <module>hackerrank/algorithms/arrays-and-sorting/insertionsort1</module>
