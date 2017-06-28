@@ -1,7 +1,7 @@
 algoritmos-avancados
 ====================
 
-[![Build Status](https://travis-ci.org/andersonlf/algorithms.svg?branch=master)](https://travis-ci.org/andersonlfeitosa/algorithms)
+[![Build Status](https://travis-ci.org/andersonlfeitosa/algorithms.svg?branch=master)](https://travis-ci.org/andersonlfeitosa/algorithms)
 
 
 Lista de discussão
