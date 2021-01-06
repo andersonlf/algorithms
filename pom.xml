@@ -55,6 +55,8 @@
       <module>hackerrank/algorithms/arrays-and-sorting/quicksort4</module>
       <module>hackerrank/algorithms/arrays-and-sorting/countingsort1</module>
     -->
+    <!-- implementation -->
+    <module>hackerrank/algorithms/implementation/electronics-shop</module>
     <!-- java -->
     <module>hackerrank/java/data-structures/java-1d-array-easy</module>
   </modules>
